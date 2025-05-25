@@ -1,0 +1,22 @@
+#joystick {
+  width: 120px;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  touch-action: none;
+  user-select: none;
+}
+#joystick-inner {
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  touch-action: none;
+  user-select: none;
+}
